@@ -1,4 +1,4 @@
-package cn.quesq999;
+package cn.ques999;
 
 public class Solution {
     public int numRookCaptures(char[][] board) {
