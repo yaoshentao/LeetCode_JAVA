@@ -14,7 +14,7 @@ class Solution {
             ans.add(new ArrayList<>(list));
             return;
         }
-        for(int i = start;i <= n - k + 1;i++){
+        for(int i = start;i <= n - k + 1;i++){   //使用小于n-k+1可以有效的减少个数不够的情况！！！！！
             list.add(i);
             getCombine(n,k - 1,i + 1,list);
             list.remove(list.size() - 1);
